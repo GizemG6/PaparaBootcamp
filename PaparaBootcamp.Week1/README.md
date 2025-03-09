@@ -139,6 +139,7 @@ Query Parameters:
 Response: A list of accounts matching the provided filters.
 
 Example Output
+
 ![Ekran görüntüsü 2025-03-09 172233](https://github.com/user-attachments/assets/add012bb-3c88-42d9-9ed9-df7a314378ce)
 
 ![Ekran görüntüsü 2025-03-09 172252](https://github.com/user-attachments/assets/43c72655-01b8-4458-a741-8c13e2933363)
