@@ -36,7 +36,8 @@ namespace PaparaBootcamp.Week1.Controllers
 		{
 			new Account { Id = 1, AccountNumber = "1234567890", OwnerName = "Gizem Güneş", Balance = 1500.50m, AccountType = "Checking" },
 			new Account { Id = 2, AccountNumber = "1234567891", OwnerName = "Lorem Ipsum", Balance = 32000.70m, AccountType = "Savings" },
-			new Account { Id = 3, AccountNumber = "1234567892", OwnerName = "Name Surname", Balance = 7800.20m, AccountType = "Checking" }
+			new Account { Id = 3, AccountNumber = "1234567892", OwnerName = "Name Surname", Balance = 7800.20m, AccountType = "Checking" },
+			new Account { Id = 4, AccountNumber = "1234567893", OwnerName = "Gizem Güneş", Balance = 99300.40m, AccountType = "Savings" },
 		};
 
 		public class AccountUpdateDTO // To update the balance in the patch
@@ -63,7 +64,7 @@ namespace PaparaBootcamp.Week1.Controllers
 			return Ok(account);
 		}
 
-		[HttpPost]
+		[HttpPost("Post")]
 		public IActionResult Post([FromBody]Account account)
 		{
 			if (!ModelState.IsValid)
