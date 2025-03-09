@@ -1,7 +1,3 @@
-# PaparaBootcamp
-
-WEEK 1
----------------
 Project Overview🔎
 -------------
 This project provides a simple API for managing accounts, supporting basic CRUD operations. The API allows users to perform the following actions:
