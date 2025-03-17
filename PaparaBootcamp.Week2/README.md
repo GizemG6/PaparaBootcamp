@@ -1,5 +1,5 @@
 WEEK 2
-
+---------------
 🤖Fake User Authentication API
 ----------------------------
 This project is a simple .NET API with a fake authentication system, custom authorization attribute, and global exception middleware. The API allows managing accounts and ensures that only authorized users can access certain endpoints.
