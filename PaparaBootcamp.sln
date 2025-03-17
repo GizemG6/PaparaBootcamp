@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaparaBootcamp.Week1", "PaparaBootcamp.Week1\PaparaBootcamp.Week1.csproj", "{8C168EAD-6C33-4B2D-A355-6A6E9A5D173B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaparaBootcamp.Week1", "PaparaBootcamp.Week1\PaparaBootcamp.Week1.csproj", "{8C168EAD-6C33-4B2D-A355-6A6E9A5D173B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaparaBootcamp.Week2", "PaparaBootcamp.Week2\PaparaBootcamp.Week2.csproj", "{D9B93DCB-4F66-459E-9694-2F05310817B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8C168EAD-6C33-4B2D-A355-6A6E9A5D173B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C168EAD-6C33-4B2D-A355-6A6E9A5D173B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C168EAD-6C33-4B2D-A355-6A6E9A5D173B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B93DCB-4F66-459E-9694-2F05310817B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B93DCB-4F66-459E-9694-2F05310817B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B93DCB-4F66-459E-9694-2F05310817B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B93DCB-4F66-459E-9694-2F05310817B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
