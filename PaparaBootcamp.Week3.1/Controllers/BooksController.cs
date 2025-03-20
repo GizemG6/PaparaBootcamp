@@ -15,13 +15,14 @@ namespace PaparaBootcamp.Week3._1.Controllers
 	{
 		private readonly BookDbContext _context;
 
+		// Constructor to initialize the database context
 		public BooksController(BookDbContext context)
 		{
 			_context = context;
 		}
 
-		//Http requestleri yakalayacak metotlar
-
+		// GET: api/books
+		// Retrieves all books from the database
 		[HttpGet]
 		public IActionResult GetBooks()
 		{
@@ -30,6 +31,8 @@ namespace PaparaBootcamp.Week3._1.Controllers
 			return Ok(result);
 		}
 
+		// GET: api/books/{id}
+		// Retrieves a specific book by its ID
 		[HttpGet("{id}")]
 		public IActionResult GetById(int id)
 		{
@@ -38,6 +41,8 @@ namespace PaparaBootcamp.Week3._1.Controllers
 			return Ok(result);
 		}
 
+		// POST: api/books
+		// Adds a new book to the database
 		[HttpPost]
 		public IActionResult AddBook([FromBody]CreateBookDto model)
 		{
@@ -54,6 +59,8 @@ namespace PaparaBootcamp.Week3._1.Controllers
 			return Ok();
 		}
 
+		// PUT: api/books/{id}
+		// Updates an existing book by its ID
 		[HttpPut("{id}")]
 		public IActionResult UpdateBook(int id, [FromBody]UpdateBookDto updatedBook)
 		{
@@ -70,6 +77,8 @@ namespace PaparaBootcamp.Week3._1.Controllers
 			return Ok();
 		}
 
+		// DELETE: api/books/{id}
+		// Deletes a book by its ID
 		[HttpDelete("{id}")]
 		public IActionResult DeleteBook(int id)
 		{

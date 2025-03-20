@@ -6,7 +6,7 @@ namespace PaparaBootcamp.Week3._1.Features.Create
 {
 	public class CreateBookCommand
 	{
-		public CreateBookDto createBookDto { get; set; }
+		public CreateBookDto createBookDto { get; set; } // DTO (Data Transfer Object) that contains book details
 		private readonly BookDbContext dbContext;
 		public CreateBookCommand(BookDbContext _dbContext)
 		{
@@ -15,11 +15,12 @@ namespace PaparaBootcamp.Week3._1.Features.Create
 
 		public void Handle()
 		{
+			// Check if a book with the same title already exists
 			var book = dbContext.Books.SingleOrDefault(x => x.Title == createBookDto.Title);
 
 			if (book is not null)
 			{
-				throw new InvalidOperationException("The book already exists");
+				throw new InvalidOperationException("The book already exists"); // Throw an error if the book exists
 			}
 			book = new Book();
 			book.Title = createBookDto.Title;
