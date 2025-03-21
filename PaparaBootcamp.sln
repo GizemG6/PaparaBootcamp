@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaparaBootcamp.Week1", "Pap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaparaBootcamp.Week2", "PaparaBootcamp.Week2\PaparaBootcamp.Week2.csproj", "{D9B93DCB-4F66-459E-9694-2F05310817B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaparaBootcamp.Week3.1", "PaparaBootcamp.Week3.1\PaparaBootcamp.Week3.1.csproj", "{2E9D0335-FD74-468D-81A3-9636A1FC382C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaparaBootcamp.Week3.1", "PaparaBootcamp.Week3.1\PaparaBootcamp.Week3.1.csproj", "{2E9D0335-FD74-468D-81A3-9636A1FC382C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaparaBootcamp.Week3.2", "PaparaBootcamp.Week3.2\PaparaBootcamp.Week3.2.csproj", "{1501F8F8-1708-4DD6-882C-BEBC59A6493D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaparaBootcamp.Week3.2", "PaparaBootcamp.Week3.2\PaparaBootcamp.Week3.2.csproj", "{1501F8F8-1708-4DD6-882C-BEBC59A6493D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaparaBootcamp.Week4", "PaparaBootcamp.Week4\PaparaBootcamp.Week4.csproj", "{F88D3DE8-5DD0-4E4C-B669-A86D596F71E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1501F8F8-1708-4DD6-882C-BEBC59A6493D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1501F8F8-1708-4DD6-882C-BEBC59A6493D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1501F8F8-1708-4DD6-882C-BEBC59A6493D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88D3DE8-5DD0-4E4C-B669-A86D596F71E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88D3DE8-5DD0-4E4C-B669-A86D596F71E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88D3DE8-5DD0-4E4C-B669-A86D596F71E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88D3DE8-5DD0-4E4C-B669-A86D596F71E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
