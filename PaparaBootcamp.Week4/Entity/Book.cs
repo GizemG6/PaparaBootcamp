@@ -4,7 +4,6 @@ namespace PaparaBootcamp.Week4.Entity
 {
 	public class Book
 	{
-		[Key]
 		public int Id { get; set; }
 		public string Title { get; set; }
 		public int GenreId { get; set; }

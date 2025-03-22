@@ -16,6 +16,8 @@ namespace PaparaBootcamp.Week4.Context
 				.WithMany(a => a.Books)
 				.HasForeignKey(b => b.AuthorId)
 				.OnDelete(DeleteBehavior.Restrict);
+
+			base.OnModelCreating(modelBuilder);
 		}
 	}
 }
