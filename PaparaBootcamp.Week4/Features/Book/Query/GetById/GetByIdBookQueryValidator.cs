@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using PaparaBootcamp.Week3._1.Features.GetById;
+using PaparaBootcamp.Week4.Features.GetById;
 
-namespace PaparaBootcamp.Week3._2.Features.GetById
+namespace PaparaBootcamp.Week4.Features.GetById
 {
 	public class GetByIdBookQueryValidator : AbstractValidator<GetByIdBookQuery>
 	{
