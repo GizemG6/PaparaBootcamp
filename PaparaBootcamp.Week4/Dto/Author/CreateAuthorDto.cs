@@ -1,4 +1,4 @@
-﻿namespace PaparaBootcamp.Week4.Features.Author.Command
+﻿namespace PaparaBootcamp.Week4.Dto.Author
 {
 	public class CreateAuthorDto
 	{

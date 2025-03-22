@@ -1,19 +1,18 @@
 ﻿using AutoMapper;
-using PaparaBootcamp.Week3._1.Common;
-using PaparaBootcamp.Week3._1.Context;
-using PaparaBootcamp.Week3._1.Dto;
+using PaparaBootcamp.Week4.Context;
+using PaparaBootcamp.Week4.Dto;
 
-namespace PaparaBootcamp.Week3._1.Features.GetById
+namespace PaparaBootcamp.Week4.Features.GetById
 {
 	public class GetByIdBookQuery
 	{
-		private readonly BookDbContext _dbContext;
+		private readonly BookStoreDbContext _dbContext;
 
 		private readonly IMapper _mapper;
 
 		// Property to store the requested book's ID
 		public int BookId { get; set; }
-		public GetByIdBookQuery(BookDbContext dbContext, IMapper mapper)
+		public GetByIdBookQuery(BookStoreDbContext dbContext, IMapper mapper)
 		{
 			_dbContext = dbContext;
 			_mapper = mapper;
