@@ -16,7 +16,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Dto\Author\" />
 	  <Folder Include="Features\Author\Command\Create\" />
 	  <Folder Include="Features\Author\Command\Delete\" />
 	  <Folder Include="Features\Author\Command\Update\" />
