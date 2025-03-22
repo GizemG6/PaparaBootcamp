@@ -1,16 +1,16 @@
-﻿using PaparaBootcamp.Week3._1.Common;
-using PaparaBootcamp.Week3._1.Context;
-using PaparaBootcamp.Week3._1.Dto;
-using PaparaBootcamp.Week3._1.Entity;
+﻿using PaparaBootcamp.Week4.Common;
+using PaparaBootcamp.Week4.Context;
+using PaparaBootcamp.Week4.Dto;
+using PaparaBootcamp.Week4.Entity;
 using System.Linq;
 
-namespace PaparaBootcamp.Week3._1.Features.GetAll
+namespace PaparaBootcamp.Week4.Features.GetAll
 {
 	public class GetAllBooksQuery
 	{
-		private readonly BookDbContext _dbContext;
+		private readonly BookStoreDbContext _dbContext;
 
-		public GetAllBooksQuery(BookDbContext dbContext)
+		public GetAllBooksQuery(BookStoreDbContext dbContext)
 		{
 			_dbContext = dbContext;
 		}

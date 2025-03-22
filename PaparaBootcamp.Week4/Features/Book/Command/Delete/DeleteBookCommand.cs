@@ -1,19 +1,19 @@
-﻿using PaparaBootcamp.Week3._1.Context;
+﻿using PaparaBootcamp.Week4.Context;
 
-namespace PaparaBootcamp.Week3._2.Features.Delete
+namespace PaparaBootcamp.Week4.Features.Delete
 {
 	public class DeleteBookCommand
 	{
-		private readonly BookDbContext _dbContext;
+		private readonly BookStoreDbContext _dbContext;
 		public int BookId { get; set; }
 
-		public DeleteBookCommand(BookDbContext dbContext)
+		public DeleteBookCommand(BookStoreDbContext dbContext)
 		{
 			_dbContext = dbContext;
 		}
 		public void Handle()
 		{
-			var book = _dbContext.Books.SingleOrDefault(x => x.Id == bookId);
+			var book = _dbContext.Books.SingleOrDefault(x => x.Id == BookId);
 			if (book is null)
 			{
 				throw new InvalidOperationException("The book is not available");

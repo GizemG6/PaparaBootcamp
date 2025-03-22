@@ -1,4 +1,4 @@
-﻿namespace PaparaBootcamp.Week3._1.Common
+﻿namespace PaparaBootcamp.Week4.Common
 {
 	public enum GenreEnum
 	{

@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace PaparaBootcamp.Week4.Entity
+﻿namespace PaparaBootcamp.Week4.Entity
 {
 	public class Book
 	{

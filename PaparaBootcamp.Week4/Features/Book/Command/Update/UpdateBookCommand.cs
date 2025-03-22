@@ -1,18 +1,18 @@
-﻿using PaparaBootcamp.Week3._1.Context;
-using PaparaBootcamp.Week3._1.Dto;
+﻿using PaparaBootcamp.Week4.Context;
+using PaparaBootcamp.Week4.Dto;
 
-namespace PaparaBootcamp.Week3._1.Features.Update
+namespace PaparaBootcamp.Week4.Features.Update
 {
 	public class UpdateBookCommand
 	{
 		// Property to store the book details to be updated
-		public UpdateBookDto Model { get; set; }
+		public UpdateBookDto updateBookDto { get; set; }
 
 		// Database context to interact with the database
-		private readonly BookDbContext _dbContext;
+		private readonly BookStoreDbContext _dbContext;
 
 		public int BookId { get; set; }
-		public UpdateBookCommand(BookDbContext dbContext)
+		public UpdateBookCommand(BookStoreDbContext dbContext)
 		{
 			_dbContext = dbContext;
 		}

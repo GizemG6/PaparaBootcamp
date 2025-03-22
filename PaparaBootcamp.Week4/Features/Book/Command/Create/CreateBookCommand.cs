@@ -1,17 +1,17 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using PaparaBootcamp.Week3._1.Context;
-using PaparaBootcamp.Week3._1.Dto;
-using PaparaBootcamp.Week3._1.Entity;
+using PaparaBootcamp.Week4.Context;
+using PaparaBootcamp.Week4.Dto;
+using PaparaBootcamp.Week4.Entity;
 
-namespace PaparaBootcamp.Week3._1.Features.Create
+namespace PaparaBootcamp.Week4.Features.Create
 {
 	public class CreateBookCommand
 	{
 		public CreateBookDto createBookDto { get; set; } // DTO (Data Transfer Object) that contains book details
-		private readonly BookDbContext dbContext;
+		private readonly BookStoreDbContext dbContext;
 		private readonly IMapper _mapper;
-		public CreateBookCommand(BookDbContext _dbContext, IMapper mapper)
+		public CreateBookCommand(BookStoreDbContext _dbContext, IMapper mapper)
 		{
 			dbContext = _dbContext;
 			_mapper = mapper;

@@ -1,7 +1,6 @@
 ﻿using FluentValidation;
-using PaparaBootcamp.Week3._1.Features.Create;
 
-namespace PaparaBootcamp.Week3._2.Features.Create
+namespace PaparaBootcamp.Week4.Features.Create
 {
 	public class CreateBookCommandValidator : AbstractValidator<CreateBookCommand>
 	{

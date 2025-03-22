@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace PaparaBootcamp.Week3._2.Features.Delete
+namespace PaparaBootcamp.Week4.Features.Delete
 {
 	public class DeleteBookCommandValidator : AbstractValidator<DeleteBookCommand>
 	{
